@@ -1,0 +1,465 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/backgraound.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position: center;
+}
+
+li{
+    list-style: none;
+    padding-right: .8%;
+}
+
+button{
+    width: clamp(50px, 4vw, 78px);
+    height: clamp(50px, 4vw, 78px);
+    border-radius: 50%;
+    border: solid black;
+}
+
+#zer{
+    height: clamp(50px, 4vw, 78px);
+    width: 8.5vw;
+    border-radius: 60px;
+    background-color: #505050; 
+    color: white;
+}
+
+#row1{
+    padding-top: .1%;
+    display: flex;
+    flex-direction: row;
+}
+
+#row2{
+    display: flex;
+    flex-direction: row;
+}
+
+#row3{
+    display: flex;
+    flex-direction: row;
+}
+
+#row4{
+    display: flex;
+    flex-direction: row;
+}
+
+#row5{
+    display: flex;
+    flex-direction: row;
+}
+
+#row0{
+    display: flex;
+    flex-direction: row;
+    padding-top: clamp(10vh, 13vh, 18vh);
+
+    padding-right: 41.5%;
+
+    height: 100px;
+
+
+    color: white;
+    font-size: clamp(65px, 1vw, 85px);
+
+    direction: rtl;
+
+}
+
+#tim{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3.5%;
+    padding-left: .4%;
+}
+
+.row{
+    margin-left: 41.2%;
+    padding-bottom: .8%;
+}
+
+b{
+    font-size: clamp(20px, 4vw, 30px);
+}
+
+#AC{
+    background-color: #D4D4D2;
+}
+
+#pm{
+    background-color: #D4D4D2;
+}
+
+#per{
+    background-color: #D4D4D2;
+}
+
+#divi{
+    background-color: #FF9500;
+     color: white;
+}
+
+#sev{
+    background-color: #505050;
+    color: white;
+}
+
+#eig{
+    background-color: #505050;
+    color: white;
+}
+
+#nin{
+    background-color: #505050;
+    color: white;
+}
+
+#mul{
+    background-color: #FF9500; 
+    color: white;
+}
+
+#for{
+    background-color: #505050;
+    color: white;
+}
+
+#fiv{
+    background-color: #505050;
+    color: white;
+}
+
+#six{
+    background-color: #505050;
+    color: white;
+}
+
+#min{
+    background-color: #FF9500; 
+    color: white;
+}
+
+#one{
+    background-color: #505050;
+    color: white;
+}
+
+#two{
+    background-color: #505050;
+    color: white;
+}
+
+#thr{
+    background-color: #505050;
+    color: white;
+}
+
+#plu{
+    background-color: #FF9500; 
+    color: white;
+}
+
+#dot{
+    background-color: #505050;
+    color: white;
+}
+
+#equ{
+    background-color: #FF9500; 
+    color: white;
+}
+/* ////////////////////////////////////////////// */
+
+#AC:hover{
+    background-color: #ffffff;
+}
+
+#pm:hover{
+    background-color: #ffffff;
+}
+
+#per:hover{
+    background-color: #ffffff;
+}
+
+#divi:hover{
+    background-color: #ffbf64;
+}
+
+#sev:hover{
+    background-color: #888888;
+}
+
+#eig:hover{
+    background-color: #888888;
+}
+
+#nin:hover{
+    background-color: #888888;
+}
+
+#mul:hover{
+    background-color: #ffbf64; 
+}
+
+#for:hover{
+    background-color: #888888;
+}
+
+#fiv:hover{
+    background-color: #888888;
+}
+
+#six:hover{
+    background-color: #888888;
+}
+
+#min:hover{
+    background-color: #ffbf64; 
+}
+
+#one:hover{
+    background-color: #888888;
+}
+
+#two:hover{
+    background-color: #888888;
+}
+
+#thr:hover{
+    background-color: #888888;
+}
+
+#plu:hover{
+    background-color: #ffbf64; 
+}
+
+#zer:hover{
+    background-color: #888888;
+}
+
+#dot:hover{
+    background-color: #888888;
+}
+
+#equ:hover{
+    background-color: #ffbf64; 
+}
+
+
+
+
+@media only screen and (max-width: 430px) {
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .container{
+        height: 100vh;
+        width: 100%;
+        background-image: none;
+        background-color: black;
+    }
+
+    #tim{
+        padding-left: none;
+    }
+
+    .row{
+        margin-left: 12%;
+    }
+
+    button{
+        width: 80px;
+        height: 80px;
+    }
+
+    #zer{
+        width: 165px;
+        height: 80px;
+    }
+
+    #row0{
+        padding-right: 15%;
+    }
+
+    #tim{
+        padding-left: .1%;
+    }
+
+
+}
+
+@media only screen and (max-width: 415px){
+
+    .container{
+        height: 100vh;
+        width: 100%;
+        background-image: none;
+        background-color: black;
+    }
+
+    .row{
+        margin-left: 10%;
+    }
+
+    #row0{
+        padding-right: 14%;
+    }
+
+}
+
+@media only screen and (max-width: 400px){
+
+    .container{
+        height: 100vh;
+        width: 100%;
+        background-image: none;
+        background-color: black;
+    }
+
+    .row{
+        margin-left: 8%;
+    }
+
+    #row0{
+        padding-right: 14%;
+    }
+
+}
+
+@media only screen and (max-width: 385px){
+
+    .container{
+        height: 100vh;
+        width: 100%;
+        background-image: none;
+        background-color: black;
+    }
+
+    .row{
+        margin-left: 7%;
+    }
+
+    #row0{
+        padding-right: 11%;
+    }
+
+}
+
+@media only screen and (max-width: 365px){
+
+    .container{
+        height: 100vh;
+        width: 100%;
+        background-image: none;
+        background-color: black;
+    }
+
+    .row{
+        margin-left: 5%;
+    }
+
+    #row0{
+        padding-right: 9%;
+    }
+
+}
+
+@media only screen and (max-width: 345px){
+
+    .container{
+        height: 100vh;
+        width: 100%;
+        background-image: none;
+        background-color: black;
+    }
+
+    button{
+        width: 70px;
+        height: 70px;
+    }
+
+    #zer{
+        width: 142px;
+        height: 70px;
+    }
+
+    .row{
+        margin-left: 8%;
+    }
+
+    #row0{
+        padding-right: 9%;
+    }
+
+}
+
+@media only screen and (max-width: 325px){
+
+    .container{
+        height: 100vh;
+        width: 100%;
+        background-image: none;
+        background-color: black;
+    }
+
+    button{
+        width: 70px;
+        height: 70px;
+    }
+
+    #zer{
+        width: 142px;
+        height: 70px;
+    }
+
+    .row{
+        margin-left: 6%;
+    }
+
+    #row0{
+        padding-right: 9%;
+    }
+
+}
+
+@media only screen and (max-width: 315px){
+
+    .container{
+        height: 100vh;
+        width: 100%;
+        background-image: none;
+        background-color: black;
+    }
+
+    button{
+        width: 70px;
+        height: 70px;
+    }
+
+    #zer{
+        width: 142px;
+        height: 70px;
+    }
+
+    .row{
+        margin-left: 4%;
+    }
+
+    #row0{
+        padding-right: 7%;
+    }
+
+}

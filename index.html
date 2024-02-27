@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="https://pngfre.com/wp-content/uploads/apple-logo-23-1024x1024.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="row" id="tim" style="color: white; font-size: 20px;">
+
+        </div>
+        <div class="row" id="row0">
+
+            <!-- <p id="result" ></p> -->
+        </div>
+
+        <div class="row" id="row1">
+            <li><button onclick="clr()" id="AC"><b>AC</b></button></li>
+            <li><button onclick="clk('%')" id="pm"><b>%</b></button></li>
+            <li><button onclick="backspace()" id="per"><b>⌫</b></button></li>
+            <li><button onclick="clk('/')" id="divi"><b>÷</b></button></li>
+        </div>
+
+        <div class="row" id="row2">
+            <li><button onclick="clk(7)" id="sev"><b>7</b></button></li>
+            <li><button onclick="clk(8)" id="eig"><b>8</b></button></li>
+            <li><button onclick="clk(9)" id="nin"><b>9</b></button></li>
+            <li><button onclick="clk('*')" id="mul"><b>x</b></button></li>
+        </div>
+
+        <div class="row" id="row3">
+            <li><button onclick="clk(4)" id="for"><b>4</b></button></li>
+            <li><button onclick="clk(5)" id="fiv"><b>5</b></button></li>
+            <li><button onclick="clk(6)" id="six"><b>6</b></button></li>
+            <li><button onclick="clk('-')" id="min"><b>−</b></button></li>
+        </div>
+
+        <div class="row"  id="row4">
+            <li><button onclick="clk(1)" id="one"><b>1</b></button></li>
+            <li><button onclick="clk(2)" id="two"><b>2</b></button></li>
+            <li><button onclick="clk(3)" id="thr"><b>3</b></button></li>
+            <li><button onclick="clk('+')" id="plu"><b>+</b></button></li>
+        </div>
+
+        <div class="row" id="row5">
+            <li><button onclick="clk(0)" id="zer"><b>0</b></button></li>
+            <li><button onclick="clk('.')" id="dot"><b>.</b></button></li>
+            <li><button onclick="equal()" id="equ"><b>=</b></button></li>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
